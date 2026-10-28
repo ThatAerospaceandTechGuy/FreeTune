@@ -1,0 +1,17 @@
+# macOS
+.DS_Store
+
+# Xcode
+*.xcodeproj
+*.xcworkspace
+xcuserdata/
+DerivedData/
+build/
+*.ipa
+*.dSYM.zip
+
+# XcodeGen
+# The project is generated from project.yml with `xcodegen generate`.
+
+# FreeTune
+README.local.md
