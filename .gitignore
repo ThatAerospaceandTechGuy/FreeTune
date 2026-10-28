@@ -15,3 +15,6 @@ build/
 
 # FreeTune
 README.local.md
+
+# Release artifacts (published as GitHub Release assets)
+dist/
