@@ -203,7 +203,7 @@ final class YouTubeClient: @unchecked Sendable {
 
     private func directRelated(videoID: String, limit: Int) async throws -> [Track] {
         let body: [String: Any] = [
-            "context": ["client": Self.android.context],
+            "context": ["client": ClientProfile.android.context],
             "videoId": videoID
         ]
         let json = try await post("next", profile: .android, body: body)
